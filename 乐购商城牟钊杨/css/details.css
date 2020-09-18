@@ -1,0 +1,372 @@
+#she_and_he{
+    width: 100%;
+    height: 596px;
+    background-color: #f2f2f2;
+    border-top: 1px solid transparent;
+}
+#she_and_he>div>p{
+    font-size: 16px;
+    color: #646464;
+    margin-bottom: 11px;
+}
+#she_and_he>div>p>span{
+    font-size: 24px;
+    color: #333333;
+}
+.sahdiv{
+    width: 1200px;
+	height: 512px;
+    background-color: #ffffff;
+    border-top:1px solid transparent;
+}
+.magnifier{
+    width: 342px;
+    height: 474px;
+    background-color: pink;
+    margin-top: 14px;
+    margin-left: 23px;
+}
+.contentr{
+    width: 788px;
+    height: 474px;
+    background-color: yellow;
+    margin-top: 14px;
+}
+.contentr>div:first-child>p{
+    text-indent: 14px;
+}
+.contentr>.content1>p:first-child{
+    font-size: 18px
+}
+.contentr>.content1>p:nth-child(2){
+    color: red;
+    margin:18px 0;
+}
+.contentr>.content1>p:nth-child(3){
+    color: #818181;
+    margin:18px 0;
+}
+.price{
+    width: 788px;
+    height: 140px;
+    background-color: #f5f5f5;
+}
+.price>p{
+    width: 600px;
+    display: inline-block;
+}
+.contentr .price .evaluate{
+    width: 80px;
+    height: 36px;
+    margin-top: -55px;
+    border-left: 2px solid #ccc;
+}
+/* 人气单品 */
+#single_item{
+    width: 1200px;
+    height: 320px;
+    border-top: 1px solid transparent
+}
+#single_item>p{
+    font-size: 24px;
+    color: #ffffff;
+    width: 124px;
+    height: 47px;
+    line-height: 47px;
+}
+#single_item .bd6{
+    height: 6px;
+    width: 1200px;
+    background-color: #f60
+}
+#single_item>p:first-child{
+    width: 124px;
+	height: 47px;
+    background-color: #ff6600;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 47px;
+}
+
+
+.eight li{
+    width: 210px;
+	height: 258px;
+    float: left;
+    text-align: center;
+}
+.eight li:hover{
+    background-color: #f2f2f2;
+}
+.eight li>p{
+    float: left;
+    margin-left: 30px;
+}
+.eight li:not(:first-child){
+    margin-left: 37px;
+}
+#single_item  .eight>li>P:first-child{
+    font-size: 14px
+}
+#single_item .eight>li>P:nth-child(4){
+    color: #f4290d;
+    font-size: 14px;
+}
+#single_item .eight>li>P:nth-child(5){
+    color: #f4290d;
+    font-size: 24px;
+}
+#single_item  .eight>li>P>span{
+    display: block;
+    float: right;
+    display: none;
+    color: #c0c0c0;
+}
+
+
+/* 看了又看 */
+#watch{
+    width: 318px;
+	height: 2212px;
+	border: solid 1px #e6e6e6;
+}
+#watch h3:first-child{
+    width: 318px;
+	height: 40px;
+    background-color: #f4f4f4;
+    font-size: 22px;
+    color: #666666;
+    line-height: 35px;
+    text-indent: 8px;
+}
+.watchagain{
+    text-align: center;
+
+}
+.watchagain li{
+    height: 290px;
+    width: 318px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-top: 24px
+}   
+#watch  .watchagain>li>P:first-child{
+    font-size: 14px
+}
+#watch .watchagain>li>P:nth-child(4){
+    color: #f4290d;
+    font-size: 14px;
+}
+#watch .watchagain>li>P:nth-child(5){
+    color: #f4290d;
+    font-size: 24px;
+}
+#watch  .watchagain>li>P>span{
+    display: block;
+    float: right;
+    display: none;
+    color: #c0c0c0;
+}
+
+/* 介绍 */
+#introduce{
+    width: 856px;
+    height: 3350px;
+}
+.itd_title{
+    width: 856px;
+	height: 53px;
+}
+.itd_title>p{
+    width: 150px;
+    height: 47px;
+    font-size: 24px;
+    line-height: 47px;
+    text-align: center;
+}
+.cur{
+    background-color: #ff6600;
+    color: white;
+}
+.itd_line{
+    width: 856px;
+    height: 6px;
+    background-color: #f60;
+    margin-top: -8px;
+}
+.itd1{
+    display: none;
+}
+.itd2{
+    display: block
+}
+
+.favorable{
+    width: 783px;
+    height: 110px;
+    margin: 0 auto;
+}
+.favorable .favorable_l{
+    width: 105px;
+    height: 80px;
+}
+.favorable_r{
+    margin-left: 40px;
+   width: 600px;
+   height: 110px;
+}
+.favorable_r>ul>li{
+    height: 20px;
+    line-height: 21px;
+    margin-top: 16px;
+}
+.favorable_r>ul{
+    width: 88px;
+    margin-left: 40px;
+}
+
+#introduce .good{
+    display: inline-block;
+    width: 146px;
+	height: 16px;
+    background-color: #f8380c;
+    
+}
+.favorable_r>ul:nth-child(2){
+    width: 146px;
+}
+.favorable_r>ul:nth-child(3){
+    width: 117px;   
+}
+.favorable_r>ul>li>div{
+    width: 146px;
+    height: 16px;
+    background-color: #c0c0c0;
+    margin-top: 3px;
+}
+.favcontent{
+    width: 10px;
+    background-color: #f60;
+    height: 16px;
+}
+.favorable_r>ul:nth-child(3)>li{
+    width: 144px;
+}
+.favorable_r>ul:nth-child(4)>li{
+    width: 144px;
+}
+
+
+.alltalk{
+    width: 856px;
+	height: 30px;
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.alltalk>span{
+    margin-left: 32px;
+}
+.usertalk{
+    width: 856px;
+    height: 126px;
+    margin-top: 25px;
+    border-bottom:1px solid #ccc;
+}
+.usertalk>p:first-child{
+    width: 110px;
+    height: 126px;
+    margin-left: 10px;
+}
+.usertalk>p:nth-child(2){
+    width: 461px;
+    height: 31px;
+    width: 461px;
+    height: 31px;
+    font-size: 14px;
+    margin-left: 38px;
+}
+.usertalk>p:nth-child(3){
+    width: 150px;
+    height: 126px;
+}
+.usertalk>p>span{
+    display:block;
+    width: 114px;
+}
+
+#introduce .page{
+    font-size: 18px;
+    color: #999999;
+    width: 340px;
+    height: 20px;
+    margin-top: 26px;
+}
+#introduce .page>span:not(:first-child){
+    display: inline-block;
+    border: solid 1px #e6e6e6;
+    width: 32px;
+    height: 32px;
+    background-color: #fafafa;
+    text-align: center;
+    line-height: 32px;
+}
+#introduce .page>span:nth-child(7){
+    border-style:none;
+    background-color: white
+}
+#introduce .page>span:last-child{
+    width: 64px;
+	height: 32px;
+}
+/* 页脚 */
+#footer{
+    position: relative;
+    border-top:6px solid #f60; 
+}
+#footer .footpic{
+    width: 785px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footpic>li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.footer_bgc{
+    height: 100px;
+    background-color: #f2f2f2
+}
+#footer .footertitle{
+    width: 800px;
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+#footer .footertitle>ul{
+    margin-left: 70px;
+    margin-top: 46px;
+}
+#footer .footertitle>ul>li{
+    margin-top: 3px;
+}
+.legologo{
+    position: absolute;
+    top: 44px;
+    right: -150px;
+}
+.footernav{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+.footerdown{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin: 20px;
+    margin-bottom: 60px;
+}

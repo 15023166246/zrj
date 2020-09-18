@@ -1,0 +1,231 @@
+/* 版心 */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 边框测试 */
+.bd{
+    border: 1px solid red;
+}
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333333;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom:1 ;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+#head{
+    width: 100%;
+	height: 113px;
+}
+.headtitle{
+    width:100%;
+	height: 28px;
+	background-color: #101010;
+}
+.welcome{
+    line-height: 28px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.welcome a{
+    color: #f60;
+}
+.logochina{
+    line-height: 28px;
+    color:#e6e6e6;
+    font-size: 18px;
+}
+.shopping{
+    height: 84px;
+}
+.shopping .mine,.buycar{
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+}
+.shopping .mine{
+    height: 34px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    line-height: 34px;
+    color: #808080;
+}
+.shopping .buycar{
+	height: 36px;
+    background-color: #ff6600;
+    line-height: 36px;
+    color: #ffffff;
+    position: relative;
+    text-indent: 25px;
+}
+.shopping .buycar>i{
+    font-style: normal;
+}
+.shopping .buycar>span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: url(../img/bgicon.png) no-repeat;
+    position: absolute;
+    background-position-y: -44px;
+    top: 2px;
+    left: 0px;
+    vertical-align: middle;
+}
+.headmid{
+    margin-top: 4px;
+    height: 50px;
+}
+/* 搜索框 */
+.search{
+    margin-right: 34px;
+    position: relative;
+
+}
+.search input:first-child{
+    width: 440px;
+	height: 30px;
+	background-color: #ffffff;
+    border: solid 2px #ff6600;
+    outline: none;
+}
+.search input:last-child{
+    width: 50px;
+	height: 34px;
+    background: url(../img/bgicon.png)no-repeat;
+    position: absolute;
+    top: 0;
+    right:0;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+}
+/* 标题 */
+.navfont{
+    width: 900px;
+    height: 16px; 
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.navfont>li{
+    margin-left: 32px;
+    height: 16px;
+   
+    float: left;
+    font-size: 16px;
+}
+.navfont>li>a{
+    color: #323232;
+}
+/* border */
+.bd1{
+    border: 2px solid #e6e6e6;
+    margin: 4px 0;
+}
+.tleft{
+    text-align: left;
+    text-indent: 10px;
+}
+/* 红色 */
+.red{
+    color: red
+}
+/* 高162 */
+.h160{
+    height: 160px;
+}
+.f60{
+    color: #f60
+}
+.bf60{
+    background-color: #f60
+}
+.mgt10{
+    margin-top: 10px;
+}
+.line{
+    height: 3px;
+    background-color: #e6e6e6;
+}
+.mgt30{
+    margin-top: 30px;
+}
+.mgt20{
+    margin-top: 20px;
+}
+
+.cp{
+    cursor: pointer;
+}
+.fs24{
+    font-size: 24px;
+}
+
+/* 贯穿线 */
+.tthought{
+    text-decoration: line-through
+}
+.c81{
+    color: #818181
+}
+.t16{
+    font-size: 16px;
+}
+.mgt40{
+    margin-top: 40px;
+}
+
+.db{
+    display: block
+}
+.tc{
+    text-align: center
+}
+
+.f72{
+    font-size: 72px
+}
+.orange{
+    color: #f8380c;
+}
+.f20{
+    font-size: 20px
+}
+.c999{
+    color: #999999;
+}
+.mgt2{
+    margin-top: 2px;
+}
+.mgt_4{
+    margin-top: -4px;
+}
+.dpib{
+    display: inline-block;
+}
+.c666{
+    color: #666666;
+}
+.cgd{
+    color: #f4b212;
+}
+.f14{
+    font-size: 14px
+}

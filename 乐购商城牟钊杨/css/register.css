@@ -1,0 +1,129 @@
+#head{
+    border-bottom: 2px solid #ccc;
+}
+.headmid{
+    margin-top: 27px;
+
+}
+.welcomelogin{
+    font-size: 30px;
+    color: #666666;
+}
+.plzlogin{
+    font-size: 24px;
+    color:#a6a6a6;
+    margin-top: -10px;
+}
+.logins{
+    cursor: pointer;
+    color: #666666;
+}
+/* 页面主体 */
+#main{
+    height: 660px;
+}
+.registerform{
+    width: 400px;
+    height: 603px;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 38px;
+}
+.registerform form>div>span{
+    font-size: 22px;
+    color: #666666;
+    display: inline-block;
+    width: 120px;
+}
+.registerform form>div{
+    padding-left: 6px;
+}
+.registerform form div input:not([type=checkbox]){
+    border: none;
+    width: 159px;
+    height: 30px;
+    outline: none;
+    margin-left: 20px;
+}
+.registerform form>input{
+    width: 402px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 48px;
+    border: solid 1px #d9d9d9;
+    outline: none;
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #f60
+}
+.k {
+	width: 400px;
+	height: 44px;
+    border: solid 1px #d9d9d9;
+    margin-top: 48px;
+    text-indent: 4px;
+    line-height: 44px;
+}
+.registerform form>div .vcode{
+    background-color: #1a83e5;
+    height: 40px;
+    width: 80px;
+    margin-top: 2px;
+    margin-right: 2px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+    
+}
+.registerform form>div>.vcode1{
+    background-color: #ccc;
+    height: 40px;
+    width: 80px;
+    margin-top: 2px;
+    margin-right: 2px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+}
+.footernav{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 24px;
+}
+.footerdown{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+
+
+.registerform .k{
+    position: relative;
+}
+label.error{
+    position: absolute;
+    left: 145px;
+    top: 44px;
+    color: red;
+    font-size: 14px;
+}
+.registerform .read{
+    position: relative;
+}
+#cxk-error{
+    position: absolute;
+    left: 6px;
+    top: 20px;
+    color: red;
+    font-size: 18px;
+}

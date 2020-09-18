@@ -1,0 +1,158 @@
+.headmid{
+    font-size: 30px;
+    color: #666666;
+    text-indent: 24px;
+    margin-top: 27px;
+}
+#main{
+    height: 500px;
+    background-image: url(../img/0loginB.jpg);
+}
+#main .loginbar{
+    margin-right:457px;
+    width: 350px;
+    height: 370px;
+    background-color: white ;
+    float: right;
+    margin-top: 65px;
+}
+#main .loginbar .login_method_l{
+    font-size: 22px;
+    color: #666666;
+    margin-left: 48px;
+}
+#main .loginbar .login_method_r{
+    font-size: 22px;
+    color: #666666;
+    margin-right: 48px;
+}
+.login_method{
+    height: 66px;
+    border-bottom: 1px solid #666666;
+    line-height: 60px;
+}
+.login_hr{
+    display: inline-block;
+    height: 28px;
+    width: 2px;
+    background-color: #666666;
+    margin: 17px 38px;
+}
+.login_main{
+    margin-top: 60px;
+    position: relative;
+}
+.ophone{
+    display: none;
+}
+.ewm{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.legoapp{
+    margin-top: 240px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 88px;
+}
+.login_page1{
+    border-top: 1px solid transparent;
+    width: 350px;
+    height: 300px;
+    position: relative;
+
+}
+.legologin{
+    text-align: center;
+    display: none;
+    position: relative;
+}
+.legologin input{
+    width: 290px;
+    height: 40px;
+    border:1px solid #666666;
+    text-indent: 38px;
+}
+.username{
+    position: absolute;
+    top: 39px;
+    left: 30px;
+}
+.pwd{
+    position: absolute;
+    top: 94px;
+    left: 30px;
+}
+.legologin p input{
+    margin-top: 12px;
+    outline: none;
+}
+.legologin p:first-child input{
+    margin-top: 38px;
+}
+.legologin p.zrjsb{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.legologin p .auto_check{
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+}
+.autologin{
+    margin-right: 30px;
+}
+.legologin .btn_login{
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ff6600;
+    border-style: none;
+    margin-bottom: 25px;
+    text-indent: 0px;
+    color: white
+}
+#main .register_now{
+    border-top: 2px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #ff6600;
+    
+}
+.register_now p img{
+    margin-top: -3px;
+}
+
+.footernav{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 24px;
+}
+.footerdown{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+#username-error{
+    position: absolute;
+    right: 30px;
+    top: 49px;
+    font-size: 20px;
+    color: red
+}
+#pwd-error{
+    position: absolute;
+    right: 30px;
+    top: 102px;
+    font-size: 20px;
+    color: red
+}
