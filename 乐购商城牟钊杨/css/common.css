@@ -97,7 +97,7 @@ a{
 .search{
     margin-right: 34px;
     position: relative;
-
+    width: 442px;
 }
 .search input:first-child{
     width: 440px;
@@ -152,7 +152,7 @@ a{
     height: 160px;
 }
 .f60{
-    color: #f60
+    color: #f60!important;
 }
 .bf60{
     background-color: #f60
@@ -228,4 +228,94 @@ a{
 }
 .f14{
     font-size: 14px
+}
+.mg20a{
+    margin: 10px auto;
+}
+.mgl16{
+    margin-left: 16px
+}
+.mgt54{
+    margin-top: 54px;
+}
+.mgt10{
+    margin-top: 10px;
+}
+.mgt16{
+    margin-top: 16px;
+}
+
+.mgl182{
+    margin-left: 182px;
+}
+.mgl346{
+    margin-left: 346px;
+}
+.mgl256{
+    margin-left: 290px;
+}
+.mgl127{
+    margin-left: 127px;
+}
+.mgt24{
+    margin-top: 24px;
+}
+.mgl88{
+    margin-left: 88px;
+}
+.mgl61{
+    margin-left: 70px;
+}
+.mgl75{
+    margin-left: 88px;
+
+}
+.mgl113{
+    margin-left: 113px;
+}
+.wh72{
+    width: 74px;
+	height: 26px;
+}
+.mgb14{
+    margin-bottom: 14px;
+}
+.mgl23{
+    margin-left: 23px
+}
+.mgl11{
+    margin-left: 11px
+}
+.mgl516{
+    margin-left: 516px
+}
+.mgl50{
+    margin-left: 50px
+}
+.hands{
+    cursor: pointer;
+}
+.mgl33{
+    margin-left: 33px
+}
+.cccline{
+    height: 6px;
+    background-color: #dfdfdf;
+    margin-bottom: 24px;
+}
+.mgl39{
+    margin-left: 39px;
+}
+.mgl29{
+    margin-left: 29px;
+}
+.bd3{
+    border: solid 1px #e6e6e6;
+}
+.bdc{
+    border: solid 1px #ccc;
+}
+.wh160{
+    width: 160px;
+	height: 160px;
 }

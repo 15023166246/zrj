@@ -22,14 +22,12 @@
 .magnifier{
     width: 342px;
     height: 474px;
-    background-color: pink;
     margin-top: 14px;
     margin-left: 23px;
 }
 .contentr{
     width: 788px;
     height: 474px;
-    background-color: yellow;
     margin-top: 14px;
 }
 .contentr>div:first-child>p{
@@ -47,7 +45,7 @@
     margin:18px 0;
 }
 .price{
-    width: 788px;
+    width: 755px;
     height: 140px;
     background-color: #f5f5f5;
 }
@@ -61,6 +59,70 @@
     margin-top: -55px;
     border-left: 2px solid #ccc;
 }
+.chosetype{
+    width: 286px;
+    height: 34px;
+    margin-top: 26px;
+    margin-left: 16px;
+    line-height: 34px;
+}
+.chosetype>span{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+}
+.chosetype>span:not(:first-child){
+    border: solid 1px #c9c9c9;
+    width: 100px;
+	height: 34px;
+}
+.yes{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    background-color: #f60;
+    line-height: 15px;
+    color: #ffffff;
+    display: none;
+}
+.anniu{
+    width: 21px;
+	height: 21px;
+	background-color: #e5e5e5;
+    border: solid 1px #d9d9d9;
+    text-align: center;
+    line-height: 21px;
+    font-size: 24px;
+    padding: 0;
+    cursor: pointer;
+}
+.joincar{
+    width: 280px;
+}
+.joincar input[type=text]{
+    width: 42px;
+	height: 44px;
+    border: solid 1px #d9d9d9;
+    font-size: 28px;
+    color: #808080;
+    text-align: center;
+}
+.joincar input[type=submit]{
+    width: 190px;
+	height: 60px;
+	background-color: #ff6600;
+    border-radius: 2px;
+    font-size: 26px;
+    color: #fefefe;
+    outline: none;
+    border-style: none
+}
+
 /* 人气单品 */
 #single_item{
     width: 1200px;

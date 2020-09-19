@@ -550,3 +550,17 @@
     text-align: center;
     display: none;
 }
+/* 顶部下拉框 */
+#drop_box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color:rgba(255,106,106, 0.5);
+    display: none;
+    z-index: 150;
+}
+#drop_box>div>img{
+    margin-top: -10px;
+}

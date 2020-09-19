@@ -202,3 +202,15 @@ $('#floor_plan>ul>li:nth-child(5)').click(function(){
     
     $("html,body").stop().animate({scrollTop:obj.top},500);
 }) 
+
+// 顶部下拉框
+let dropBox=document.querySelector('#drop_box')
+window.addEventListener('scroll',function(){
+    let scrollTop=document.documentElement.scrollTop||document.body.scrollTop
+    if(scrollTop>1200){
+        dropBox.style.display='block';
+    }
+    else{
+        dropBox.style.display='none'
+    }
+})

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/common.css">
     <!-- 引入本页样式 -->
     <link rel="stylesheet" href="./css/details.css">
+    <!-- 引入放大镜样式 -->
+    <link rel="stylesheet" href="./css/magnifier.css">
 </head>
 
 <body>
@@ -92,9 +94,53 @@
                 <span>图书</span> > 小说 > 情感/家庭/婚姻 > 博集天卷 > 她和他</p>
             <div class="sahdiv">
                 <!-- 放大镜 -->
-                <div class="magnifier fl">
-
-                </div>
+                        <div class="magnifier fl" id="magnifier1">
+                                <div class="magnifier-container">
+                                    <div class="images-cover"></div>
+                                    <!--当前图片显示容器-->
+                                    <div class="move-view"></div>
+                                    <!--跟随鼠标移动的盒子-->
+                                </div>
+                                <div class="magnifier-assembly">
+                                    <div class="magnifier-btn">
+                                        <span class="magnifier-btn-left">&lt;</span>
+                                        <span class="magnifier-btn-right">&gt;</span>
+                                    </div>
+                                    <!--按钮组-->
+                                    <div class="magnifier-line">
+                                        <ul class="clearfix animation03">
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="./img/22499729-1_l_5.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="./img/22788959-1_l.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="./img/22790777-1_l_1.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="./img/22876893-1_l.jpg" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="small-img">
+                                                    <img src="./img/22928335-1_l.jpg" />
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--缩略图-->
+                                </div>
+                                <div class="magnifier-view"></div>
+                                <!--经过放大的图片显示容器-->
+                            </div>
                 <!-- 右边书籍内容 -->
                 <div class="contentr fr clearfix">
                     <div class="content1 clearfix">
@@ -131,6 +177,21 @@
                                 99999
                             </span>
                         </p>
+                        <p class="chosetype">
+                            <span>种类选择:</span>
+                            <span>平装版<span class="yes">√</span></span>
+                            <span>精装版<span class="yes">√</span></span>
+                        </p>
+                        <div class="fl mgl16 mgt54 joincar">
+                                <form action="#">
+                                    <input type="text" value="1" class="fl mgt10">
+                                    <div class="fl mgt10">
+                                        <div class="anniu">+</div>
+                                        <p class="anniu">-</p>
+                                    </div>
+                                    <input type="submit" value="加入购物车" class="fr">
+                                </form>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -507,6 +568,7 @@
         </div>
 <script src="./lib/jquery.min.js"></script>
 <script src="./js/details.js"></script>
+<script src="./lib/magnifier(1).js"></script>
 </body>
 
 </html>
