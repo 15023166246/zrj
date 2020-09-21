@@ -287,6 +287,14 @@
     font-size: 28px;
     margin-top: 10px;
 }
+.prove_l{
+    display: inline-block;
+    margin-top: 14px;
+}
+.prove_l>p{
+    margin-left: 10px;
+    cursor: pointer;
+}
 #prove .prove_tab .provelunbo{
     height: 518px;
     width: 1200px;

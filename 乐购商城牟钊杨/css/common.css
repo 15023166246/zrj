@@ -235,8 +235,14 @@ a{
 .mgl16{
     margin-left: 16px
 }
+.fs16{
+    font-size: 16px;
+}
+.c64{
+    color: #646464
+}
 .mgt54{
-    margin-top: 54px;
+    margin-top: 64px;
 }
 .mgt10{
     margin-top: 10px;

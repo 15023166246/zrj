@@ -12,9 +12,6 @@ $(function(){
         $('.allnumber').val(number)
         $('.allsubtotal').val(money+'.00')
     }
-
-
-
 // 点击全选
 $('.count1').click(function(){
     if($(this).prop('checked')==true){
@@ -58,8 +55,8 @@ $('#good>.cnm>div:first-child>input').click(function () {
     $(".cut").click(function () {
         let t = $(this).next().prop("value")
         t -= 1;
-        if (t < 0) {
-            t = 0
+        if (t < 1) {
+            t = 1
         }
         $(this).next().prop("value", t)
         var unit=$(this).parent().prev().html()
@@ -90,7 +87,7 @@ $('#good>.cnm>div:first-child>input').click(function () {
         if (!isNaN(str)) {
             // 报错删除
             $(this).html("");
-            // 判断正常输入的是纯数字，做下一步筛选
+            // 判断正常输入的是纯数字
             // 把当前获取的的输入内容强制转换为整数
             str = parseInt(str);
             if (str < 1) {

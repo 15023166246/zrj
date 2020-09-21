@@ -31,7 +31,7 @@ $('#rbece .booksr ul li').mouseenter(function () {
 
 
 // 选项卡
-let chosePrv=document.querySelectorAll('#prove>div>p')
+let chosePrv=document.querySelectorAll('.prove_l>p')
 let chosediv=document.querySelectorAll('#prove>.prove_tab>div')
 
 for (let i = 0; i < chosePrv.length; i++) {

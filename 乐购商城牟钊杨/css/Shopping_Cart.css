@@ -39,7 +39,9 @@
 #good>.cnm>div{
     height: 166px;
 }
-
+.text1>span{
+    user-select: none;
+}
 #good .cnm>div:nth-child(5)>span{
     display:inline-block;
     width: 26px;
